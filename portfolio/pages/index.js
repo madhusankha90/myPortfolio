@@ -1,6 +1,6 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
+  AiOutlineClose,
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
@@ -62,7 +62,7 @@ export default function Home() {
             Let's collaborate to bring your projects to life with innovation and excellence!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
+              <AiOutlineClose />
               <AiFillLinkedin />
               <AiFillYoutube />
             </div>
