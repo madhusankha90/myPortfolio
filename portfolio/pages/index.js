@@ -12,7 +12,7 @@ import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
+import web2 from "../public/web2.jpeg";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
@@ -122,17 +122,17 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white font-semibold">Projects</h3>
            
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap cursor-pointer ">
+            <div className="basis-1/3 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover "
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web1}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -141,7 +141,7 @@ export default function Home() {
                 src={web2}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -150,7 +150,7 @@ export default function Home() {
                 src={web3}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -159,7 +159,7 @@ export default function Home() {
                 src={web4}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -168,7 +168,7 @@ export default function Home() {
                 src={web5}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
