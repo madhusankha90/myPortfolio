@@ -73,7 +73,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services</h3>
+            <h3 className="text-3xl py-1 dark:text-white font-semibold">Services</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             I offer a variety of services as a software engineer and web developer,
              including full stack development, responsive design, and single page
@@ -88,30 +88,30 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Software Enginee
+                Software Engineer
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+              Providing tailored software solutions, API development
+              , and performance optimization to enhance application functionality and efficiency.
               </p>
              
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
+              Web Development
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
+              Offering full stack development, responsive design, and custom website
+               solutions to create dynamic and user-friendly web applications.
               </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Consultation and Support</h3>
               <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+              Delivering expert consultation on project strategy, ongoing maintenance,
+               and code review to ensure high-quality and sustainable solutions.
               </p>
               
             </div>
@@ -119,7 +119,7 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white font-semibold">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
