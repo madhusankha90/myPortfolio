@@ -18,8 +18,8 @@ This is my personal portfolio website built with **Next.js**. It showcases my sk
 
 ## Installation
 
-1. **Clone the repository:**
+ **Clone the repository:**
 
    ```bash
    git clone https://github.com/madhusankha90/myPortfolio.git
-   cd portfolio
+  
